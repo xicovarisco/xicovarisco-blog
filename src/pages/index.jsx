@@ -65,26 +65,26 @@ const Index = () => (
         <BigTitle>
           Hello, <br /> I'm Francisco.
         </BigTitle>
-        <Subtitle>I'm creating noice web experiences for the next generation of consumer-facing companies.</Subtitle>
+        <Subtitle>I'm creating noice web & mobile experiences for the next generation of consumer-facing companies.</Subtitle>
       </Hero>
       <Projects offset={1}>
-        <Title>Projects</Title>
+        <Title>Articles</Title>
         <ProjectsWrapper>
           <ProjectCard
-            title="Freiheit"
-            link="https://www.behance.net/gallery/58937147/Freiheit"
+            title="HOCs with React’s Context API"
+            link="https://itnext.io/combining-hocs-with-the-new-reacts-context-api-9d3617dccf0b"
             bg="linear-gradient(to right, #D4145A 0%, #FBB03B 100%)"
           >
-            This project is my entry to Adobe's #ChallengeYourPerspective contest.
+            • Aug 2018
           </ProjectCard>
           <ProjectCard
-            title="Harry Potter"
-            link="https://www.behance.net/gallery/52915793/Harry-Potter"
+            title="Real Time GraphQL Mutations"
+            link="https://medium.com/@franciscovarisco/real-time-graphql-mutations-using-apollo-client-react-and-optimistic-ui-10e35ec3553e"
             bg="linear-gradient(to right, #662D8C 0%, #ED1E79 100%)"
           >
-            I entered the DOCMA 2017 award with this Harry Potter inspired image.
+            • Jul 2018
           </ProjectCard>
-          <ProjectCard
+          {/* <ProjectCard
             title="Tomb Raider"
             link="https://www.behance.net/gallery/43907099/Tomb-Raider"
             bg="linear-gradient(to right, #009245 0%, #FCEE21 100%)"
@@ -97,16 +97,15 @@ const Index = () => (
             bg="linear-gradient(to right, #D585FF 0%, #00FFEE 100%)"
           >
             A fantasy image manipulation relocating the habitat of wild animals.
-          </ProjectCard>
+          </ProjectCard> */}
         </ProjectsWrapper>
       </Projects>
       <About offset={3}>
         <Title>About</Title>
         <AboutHero>
-          <Avatar src={avatar} alt="John Doe" />
+          <Avatar src={avatar} alt="Francisco Varisco" />
           <AboutSub>
-            The English language can not fully capture the depth and complexity of my thoughts. So I'm incorporating
-            Emoji into my speech to better express myself. Winky face.
+            I'm a technology enthusiast that loves ... people 🤔 <br />I wasn't born in America. I've never been in San Francisco before. People call me San Fran (Apparently for no outstanding reason)
           </AboutSub>
         </AboutHero>
         <AboutDesc>
@@ -122,8 +121,9 @@ const Index = () => (
           <Title>Get in touch</Title>
           <ContactText>
             Say <a href="mailto:francisco.varisco@gmail.com">Hi</a> or find me on other platforms:{' '}
-            <a href="https://github.com/xicovarisco" target="_blank">Github</a> &{' '}
-            <a href="https://www.instagram.com/xicovarisco/" target="_blank">Instagram</a>
+            <a href="https://www.linkedin.com/in/xicovarisco/" target="_blank">LinkedIn</a> /{' '}
+            <a href="https://github.com/xicovarisco" target="_blank">GitHub</a> /{' '}
+            <a href="https://medium.com/@franciscovarisco" target="_blank">Medium</a>
           </ContactText>
         </Inner>
         <Footer>
