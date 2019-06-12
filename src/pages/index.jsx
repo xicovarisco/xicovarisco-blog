@@ -105,15 +105,16 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="Francisco Varisco" />
           <AboutSub>
-            I'm a technology enthusiast that loves ... people 🤔 <br />I wasn't born in America. I've never been in San Francisco before. People call me San Fran (Apparently for no outstanding reason)
+            I'm a technology enthusiast that loves ... people 🤔 <br />I wasn't born in America. I've never been in San Francisco before and yet people call me San Fran (Apparently for no outstanding reason)
           </AboutSub>
         </AboutHero>
         <AboutDesc>
-          You know the way you feel when you see a picture of two otters holding hands? That's how you're gonna feel
-          every day. My mother cried the day I was born because she knew she’d never be prettier than me. You should
-          make me your campaign manager. I was born for politics. I have great hair and I love lying. Captain? The kids
-          want to know where Paulie the Pigeon is. I told them he got sucked up into an airplane engine, is that all
-          right?
+          You know the amazing feeling of getting things done? Well, I'm substantially addicted to that.
+          I'm quite moved by challenges and I believe that knowledge can transform people and impact others around you.
+          <br />"<strong>FIND</strong> what you love"
+          <br />"<strong>TRUST</strong> everything will work out perfectly in the end"
+          <br />"<strong>KNOW</strong> we all have challenges. KNOW they only make us STRONGER"
+          <br />(Steve Jobs)
         </AboutDesc>
       </About>
       <Contact offset={4}>
