@@ -9101,6 +9101,11 @@ react-fast-compare@^2.0.2:
   resolved "https://registry.yarnpkg.com/react-fast-compare/-/react-fast-compare-2.0.4.tgz#e84b4d455b0fec113e0402c329352715196f81f9"
   integrity sha512-suNP+J1VU1MWFKcyt7RtjiSWUjvidmQSlqu+eHslq+342xCbGTYmC0mEhPCOHxlW0CywylOC1u2DFAT+bv4dBw==
 
+react-google-minicalendar@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/react-google-minicalendar/-/react-google-minicalendar-1.0.1.tgz#714782df0a7826d57fc38cb2c4bc9aa83a5db2e0"
+  integrity sha512-q1UNFHDDGZC+/IC29u5t+RA5c7+WKd0cDLOmiNK85XVwpVGMK/pnyqVrJ2vwwO65szcjCFPkEhHxgAZSPElwIA==
+
 react-helmet@^5.2.1:
   version "5.2.1"
   resolved "https://registry.yarnpkg.com/react-helmet/-/react-helmet-5.2.1.tgz#16a7192fdd09951f8e0fe22ffccbf9bb3e591ffa"
