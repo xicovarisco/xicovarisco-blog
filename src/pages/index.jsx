@@ -105,7 +105,7 @@ const Index = () => (
         <AboutHero>
           <Avatar src={avatar} alt="Francisco Varisco" />
           <AboutSub>
-            I'm a technology enthusiast that loves ... people 🤔 <br />I wasn't born in America. I've never been in San Francisco before and yet people call me San Fran (Apparently for no outstanding reason)
+            I'm a technology enthusiast that loves ... people 🤔 <br />I wasn't born in America. I've never been to San Francisco before and yet people call me San Fran (Apparently for no outstanding reason)
           </AboutSub>
         </AboutHero>
         <AboutDesc>
